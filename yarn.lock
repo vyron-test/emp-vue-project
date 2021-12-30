@@ -974,7 +974,7 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@efox/emp@^2.0.0-beta.16":
+"@efox/emp@^2.0.0-beta.12":
   version "2.0.0-beta.16"
   resolved "https://registry.npmmirror.com/@efox/emp/download/@efox/emp-2.0.0-beta.16.tgz#d45eeb28244ab0191dce6177fb794ce69b164658"
   integrity sha512-v/CEFvY4XGCuMhNyC0qHXz7m5JKw1L3EwjUbzBzGEH0fFhs5kv4PvZ6RzPdwKrOpV/Jglwq+vHaZ0PEvF08W0w==
@@ -10306,14 +10306,10 @@ vue-loader@^15.9.2, vue-loader@^15.9.8:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-loader@^17.0.0:
-  version "17.0.0"
-  resolved "https://registry.npmmirror.com/vue-loader/download/vue-loader-17.0.0.tgz#2eaa80aab125b19f00faa794b5bd867b17f85acb"
-  integrity sha512-OWSXjrzIvbF2LtOUmxT3HYgwwubbfFelN8PAP9R9dwpIkj48TVioHhWWSx7W7fk+iF5cgg3CBJRxwTdtLU4Ecg==
-  dependencies:
-    chalk "^4.1.0"
-    hash-sum "^2.0.0"
-    loader-utils "^2.0.0"
+vue-router@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.npmmirror.com/vue-router/download/vue-router-3.5.3.tgz#041048053e336829d05dafacf6a8fb669a2e7999"
+  integrity sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"

@@ -13,6 +13,9 @@ module.exports = defineConfig({
         remotes: {
             '@microBase': `microBase@http://localhost:8001/emp.js`,
         },
+        exposes: {
+            './router': `./src/router/index.js`,
+        }
     },
     webpackChain(config) {
         config.resolve.alias.set('@', path.resolve('/', 'src'));

@@ -1,19 +1,19 @@
 <template>
-  <div id="app">
-    <HelloWorld />
-    <BaseApp />
+  <div id="emp-root">
+    <router-view />
+    <!-- <BaseApp /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from '@microBase/HelloWorld'
-import BaseApp from '@microBase/App'
+// import HelloWorld from '@microBase/HelloWorld'
+// import BaseApp from '@microBase/App'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    BaseApp
+    // HelloWorld
+    // BaseApp
   }
 }
 </script>
